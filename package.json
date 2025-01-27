@@ -22,6 +22,7 @@
     "pdf-to-img": "^4.3.0",
     "pptxgenjs": "^3.12.0",
     "puppeteer": "^24.1.1",
+    "xlsx": "^0.18.5",
     "xlsx-populate": "^1.21.0"
   }
 }

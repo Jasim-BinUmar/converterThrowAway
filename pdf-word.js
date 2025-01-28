@@ -1,3 +1,5 @@
+//////////////////////////////////////////////////////Using PDF-parse //////////////////////////////////////////////////////////
+
 const fs = require('fs');
 const pdf = require('pdf-parse');
 const docx = require('docx');
@@ -23,7 +25,7 @@ pdf(dataBuffer).then(function(data) {
 
     // Used to export the file into a .docx file
     docx.Packer.toBuffer(doc).then((buffer) => {
-        fs.writeFileSync("output.docx", buffer);
+        fs.writeFileSync("pdfToWord.docx", buffer);
     });
 }).catch(function(error){
     console.error(error);

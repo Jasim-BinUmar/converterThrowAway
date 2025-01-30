@@ -104,7 +104,7 @@ async function convertUrlToPdf(url, pdfPath) {
 }
 
 // Example usage
-const url = 'https://www.turing.com/interview-questions/react-native'; // Replace with your URL
+const url = 'https://www.turing.com/interview-questions/react-native'; 
 const pdfPath = './output.pdf';
 
 convertUrlToPdf(url, pdfPath);
